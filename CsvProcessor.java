@@ -7,9 +7,9 @@ import java.util.Date;
 public class CsvProcessor {
 
     public static void main(String[] args) {
-        String inputFilePath = "C:\\ESP\\A69_test\\G1_MOD_KK_Equipment_1-50.csv";
-        String outputFilePath = "C:\\ESP\\A69_test\\output.csv";
-        String logFilePath = "C:\\ESP\\A69_test\\info.log";
+        String inputFilePath = "C:\\WTest\\X69_test\\Equipment_1-50.csv";
+        String outputFilePath = "C:\\WTest\\X69_test\\output.csv";
+        String logFilePath = "C:\\WTest\\X69_test\\info.log";
 
         // Step 1: Write the file
         writeCsvFile(inputFilePath, outputFilePath);
